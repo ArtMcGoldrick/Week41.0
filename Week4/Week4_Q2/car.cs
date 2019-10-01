@@ -42,11 +42,11 @@ namespace Week4_Q2
             set { currentSpeed = value; }
         }
         //Input engine size
-        //public int EngineSize
-        //{
-        //    get { return engineSize; }
-        //    set { engineSize = value; }
-        //}
+        public int EngineSize
+        {
+            get { return engineSize; }
+            set { engineSize = value; }
+        }
 
         //The string to show all values
         public override string ToString()
